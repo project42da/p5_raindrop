@@ -29,7 +29,6 @@ function draw() {
   diameter = random(1,rainDrop);
   opacity = random(1,10);
 
-  noStroke();
   fill(color.r,color.g,color.b,opacity);
   ellipse(spot.x,spot.y,diameter,diameter);
 }
